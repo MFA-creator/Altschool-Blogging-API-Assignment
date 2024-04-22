@@ -1,8 +1,8 @@
 import bcrypt from 'bcryptjs';
 import generateToken from './generateToken.js';
 import config from '../configs/config.js';
-import User from '../models/User';
-import logger from '../utils/logger';
+import User from '../models/User.js';
+import logger from '../utils/logger.js';
 
 export default const login = async (req, res) => {
 	try {

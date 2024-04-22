@@ -1,6 +1,6 @@
-import Blog from '../models/Blog';
-import User from '../models/User';
-import logger from '../utils/logger';
+import Blog from '../models/Blog.js';
+import User from '../models/User.js';
+import logger from '../utils/logger.js';
 
 export default const createBlog = async (req, res) => {
 	try {
