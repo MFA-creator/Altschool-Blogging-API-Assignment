@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import config from '../config/config.js';
+import config from '../configs/config.js';
 import logger from '../utils/logger.js';
 
 export default const verifyToken = (req, res, next) => {
